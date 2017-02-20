@@ -125,10 +125,12 @@ Utiliser npm.
 
 Les elements à afficher :
 
-1. generateur de nom de super-heros
-2. generateur de mots dit par un lapin
+1. generateur de nom de super-heros avec :
+  2. https://github.com/sindresorhus/superheroes
+2. generateur de mots dit par un lapin avec :
+  3. https://github.com/ryanbahniuk/sign-bunny
+  4. chalk (pour coloriser)
 3. Generateur de camelCase, kebab-case, snake_case avec https://github.com/parro-it/awesome-micro-npm-packages
 4. Générateur de favicon avec https://github.com/haydenbleasel/favicons
 5. generateur de qrcode avec https://github.com/soldair/node-qrcode
 6. lecteur de exif avec https://github.com/gomfunkel/node-exif ou https://github.com/hMatoba/piexifjs ou https://github.com/devongovett/exif-reader
-5.
