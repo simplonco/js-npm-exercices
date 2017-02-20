@@ -130,7 +130,11 @@ Les elements à afficher :
 2. generateur de mots dit par un lapin avec :
   3. https://github.com/ryanbahniuk/sign-bunny (nodejs / browser avec un peu de boulot)
   4. chalk (pour coloriser vos resultats en nodejs)
-3. Generateur de camelCase, kebab-case, snake_case avec https://github.com/parro-it/awesome-micro-npm-packages (nodejs / browser)
+3. Generateur de camelCase, kebab-case, snake_case (nodejs / browser) avec 
+	* https://github.com/ianstormtaylor/to-camel-case
+	* https://github.com/joakimbeng/kebab-case
+	* https://github.com/ianstormtaylor/to-snake-case
+	* https://github.com/ianstormtaylor/to-space-case
 4. Générateur de favicon avec https://github.com/haydenbleasel/favicons (nodejs only)
 5. generateur de qrcode avec https://github.com/soldair/node-qrcode (nodejs / browser)
 6. lecteur de exif avec https://github.com/gomfunkel/node-exif ou https://github.com/hMatoba/piexifjs ou https://github.com/devongovett/exif-reader (nodejs / broser pas sî)
