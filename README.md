@@ -111,30 +111,47 @@ Apprendre à utiliser npm. Apprendre à choisir et utiliser des librairies
 
   https://atom.io/packages/npm
 
-## exercice nodejs
-
-https://github.com/simplonco/js-node-project-boilerplate
-
-## exercices Nodejs OU Browser
+## exercices Browser (à executer dans le navigateur)
 
 But :
-Faire une page avec 7 liens vers 7 affichages differents.
+Faire une page avec 3 liens vers 3 affichages differents.
 
 Regles :
 Utiliser npm.
 
 Les elements à afficher :
 
-1. generateur de nom de super-heros avec :
-  2. https://github.com/sindresorhus/superheroes (nodejs / browser)
-2. generateur de mots dit par un lapin avec :
-  3. https://github.com/ryanbahniuk/sign-bunny (nodejs / browser avec un peu de boulot)
-  4. chalk (pour coloriser vos resultats en nodejs)
+1. generateur de nom de super-heros :
+  * avec https://github.com/sindresorhus/superheroes (nodejs / browser)
+  * Un bouton => superheroes.random() => Affichage d'un nom de superhero en dessous du bouton
+  
+  
+2. generateur de mots dit par un lapin :
+  * https://github.com/ryanbahniuk/sign-bunny (nodejs / browser avec un peu de boulot)
+  * chalk (pour coloriser vos resultats en **nodejs**)
+  * 1 input text + 1 bouton => quand on clique sur le bouton => le lapin affiche le contenu de l'input text
+  
+  
 3. Generateur de camelCase, kebab-case, snake_case (nodejs / browser) avec 
 	* https://github.com/ianstormtaylor/to-camel-case
 	* https://github.com/joakimbeng/kebab-case
 	* https://github.com/ianstormtaylor/to-snake-case
 	* https://github.com/ianstormtaylor/to-space-case
+	
+	* 1 input text + 1 bouton + 4 radio buttons (camel-case, snake-case, kebab-case, space-case)
+	* l'utilisateur saisi un texte
+	* l'utilisateur clique sur un des 4 boutons radio
+	* l'utilisateur sur le bouton
+	* => le texte saisi dans l'input text va s'afficher en dessous du bouton sous la forme choisie par l'utilisateur (cf. bouton radios)
+	
+	
+	
+
+## exercice nodejs
+
+https://github.com/simplonco/js-node-project-boilerplate
+	
+	
 4. Générateur de favicon avec https://github.com/haydenbleasel/favicons (nodejs only)
 5. generateur de qrcode avec https://github.com/soldair/node-qrcode (nodejs / browser)
 6. lecteur de exif avec https://github.com/gomfunkel/node-exif ou https://github.com/hMatoba/piexifjs ou https://github.com/devongovett/exif-reader (nodejs / broser pas sî)
